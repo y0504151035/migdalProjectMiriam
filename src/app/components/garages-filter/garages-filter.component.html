@@ -1,0 +1,10 @@
+<div class="container">
+<mat-form-field dir="rtl">
+  <mat-label> אזור</mat-label>
+  <mat-select dir="rtl" (valueChange)="onChangeArea($event)">
+    <mat-option dir="rtl" *ngFor="let areas of dataArray" [value]="areas.value">{{areas.viewValue}}</mat-option>
+  </mat-select>
+</mat-form-field>
+<input class="city-input" type="text" id="city" (change)="onChangeCity()"  [(ngModel)]="city" placeholder="הזן שם עיר">
+
+</div>

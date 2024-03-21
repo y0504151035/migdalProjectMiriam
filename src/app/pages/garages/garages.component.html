@@ -1,0 +1,6 @@
+
+<garages-filter (filtergarages)="loadgarages($event)" ></garages-filter>
+<garages-view *ngIf="dataArray" [garagesList] = "dataArray"></garages-view>
+<div class="alert" *ngIf="isError">שגיאה בהבאת הנתונים נסה שוב במועד מאוחר יותר</div>
+<div class="alert" *ngIf = "isShowErrorAlert">לא נמצאו נתונים תואמים לחיפוש שלך</div>
+

@@ -1,0 +1,7 @@
+{
+    "/api": {
+      "target": "https://customersservices.migdal.co.il",
+      "secure": false,
+      "changeOrigin": true
+    }
+  }

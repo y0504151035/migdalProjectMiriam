@@ -1,0 +1,21 @@
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 22%;
+    padding: 27px;
+}
+.city-input{
+    background-color: whitesmoke;
+    border: none;
+    height: 53px;
+    padding-right: 13px;
+    direction: rtl;
+    font-size: 17px;
+    border-bottom: solid 1px #877e7e;
+}
+.mat-mdc-select {
+
+    text-align: right;
+}

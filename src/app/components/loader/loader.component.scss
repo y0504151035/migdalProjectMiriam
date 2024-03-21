@@ -1,0 +1,36 @@
+#pause {
+    display: block;
+    background: rgb(0 0 0 / 45%) no-repeat 0 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    #spinner {
+      -webkit-animation: frames 1s infinite linear;
+      animation: frames 1s infinite linear;
+      background: transparent;
+      border: 0.4vw solid #fff;
+      border-radius: 100%;
+      border-top-color: rgb(94 89 89);
+      width: 6vw;
+      height: 6vw;
+      opacity: 0.6;
+      padding: 0;
+      z-index: 999;
+      margin: 0 auto;
+    }
+    @keyframes frames {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+      }
+    }
+  }
