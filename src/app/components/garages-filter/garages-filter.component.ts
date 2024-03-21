@@ -41,7 +41,6 @@ export class GaragesFilterComponent implements OnInit {
   }
 
   onChangeArea(value: any) {
-    debugger
     if (this.city) {
       var areaobj: {} = { 'City': this.city, 'Area':  this.dataArray[value].viewValue };
     }
